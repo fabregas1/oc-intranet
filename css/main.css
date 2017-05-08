@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "Andes-Regular";
+    src: url("font/Andes-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family:"Andes-Bold" ;
+    src: url("font/Andes-Bold.otf") format("opentype");
+}
+
+h2, h3,h4,h5 {
+	font-family:"Andes-Regular" ;
+	font-weight: bold;
+    
+}
+
+body {
+	font-family: "Open Sans",sans-serif;
+}
+
+a {
+  color: #0071bc;
+}
+
+.bg-light-blue {
+	background-color: #009FDA;
+}
+
+.bg-dark-blue {
+	background-color: #002244;
+}
+
+.bg-light-gray {
+	background-color: #f6f6f6;
+}
+
+.bg-dark-gray {
+  background-color: #424244;
+}
+
+.bg-white , ul.bg-white li  {
+	background-color: #fff;
+}
+
+.dark-blue {
+  color: #002244;
+}
+
+.dark-gray {
+  color: #424244;
+}
+ 
+
+
+.text-center  {
+	text-align: center;
+}
+
+.oc-moldova-card-image.mdl-card {
+  background: url('../img/moldova.jpg')  center / cover;
+   height: 300px;
+   width: 100%;
+}
+
+
+.oc-main-card-image > .mdl-card__actions {
+  height: 50px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.oc-main-card-image__filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+
+ul.list-inline {
+	list-style: none;
+}
+
+
+
+ul.list-inline li {
+	float: left;
+	height: 150px;
+}
+
+ul#results {
+	height: 300px;
+  padding: 25px;
+
+}
+
+
+ul#results li:first-child {
+	 height: 300px;
+	 box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-right: 1px dashed #ccc;
+    margin-right: 1px;
+    width: 45% !important;
+    margin-right: 3%;
+
+
+}
+
+ul#research li {
+  margin-right: 5px;
+}
+
+ul#research li p {
+  padding: 15px;
+  font-size: 16px;
+  text-align: 
+}
+
+p.sub-title {
+	font-size: 22px;
+    line-height: 28px;
+    margin: 0 0 16px 0;
+    font-weight: normal;
+    font-family: "Andes-Regular",sans-serif;
+
+}
+
+p.blurb-text {
+    font-size: 14px;
+    line-height: 22px;
+    color: #333;
+    margin-bottom: 10px;
+    word-break: break-word;
+}
+
+div.container {
+	 padding-right: 25px ;
+    padding-left: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul.square {list-style-type: square;}
+
+p#mission {
+  font-size: 18px;
+  padding-left:100px;
+  padding-right: 100px;
+}
+
+.h256 {
+	height: 256px;
+	min-height: 256px;
+}
+
+.w50 {
+	width: 50%;
+}
+
+.w25 {
+	width: 25%;
+}
+
+.w75 {
+  width: 75%;
+}
+
+ 
+.w20 {
+  width: 18%;
+}
+
+.img-full{
+  width: 100%;
+}
+.padding-25 {
+	padding: 25px;
+}
+.padding-left-25 {
+	padding-left: 25px;
+}
+
+.padding-right-150 {
+	padding-right: 150px;
+}
+
+.txt-white {
+	color: #fff;
+}
+
+.txt-center {
+	text-align: center;
+}
+
+.lh-256 , h3.lh-256  {
+	line-height: 256px;
+}
+
+.demo-card-square.mdl-card {
+  width: 250px;
+  height: 250px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background: #002244;
+}
+
+@media screen and (max-width: 600px) {
+  .mobile-hidden {
+    visibility: hidden;
+    display: none;
+  }
+}
