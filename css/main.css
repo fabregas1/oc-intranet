@@ -8,7 +8,7 @@
     src: url("font/Andes-Bold.otf") format("opentype");
 }
 
-h2, h3,h4,h5 {
+h1, h2, h3,h4,h5 {
 	font-family:"Andes-Regular" ;
 	font-weight: bold;
     
@@ -173,6 +173,18 @@ p#mission {
 .img-full{
   width: 100%;
 }
+
+.img-results {
+  width:100%;
+}
+
+.img-label {
+  color: #fff;
+  background-color: #009FDA;
+  padding: 10px;
+   
+}
+
 .padding-25 {
 	padding: 25px;
 }
@@ -203,6 +215,10 @@ p#mission {
 .demo-card-square > .mdl-card__title {
   color: #fff;
   background: #002244;
+}
+
+.mdl-dialog {
+  width: 40%;
 }
 
 @media screen and (max-width: 600px) {
