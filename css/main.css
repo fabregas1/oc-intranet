@@ -73,9 +73,9 @@ a {
   font-size: 14px;
   font-weight: 500;
 }
+ 
 
-
-ul.list-inline {
+ul, ul.list-inline {
 	list-style: none;
 }
 
@@ -184,6 +184,11 @@ p#mission {
   padding: 10px;
    
 }
+
+.img-label a { 
+  color: #fff;
+  text-decoration: none;
+ }
 
 .padding-25 {
 	padding: 25px;
